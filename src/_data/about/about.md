@@ -71,6 +71,6 @@ I studied at the **University of Tennessee** and received my B.S. in **Computer 
 
 ## Contact Me
 
-Have a question or opportunity? Feel free to reach me via email at [jhickman@pm.me](mailto:jhickman@pm.me)!
+Have a question or opportunity? Feel free to reach me via email at [jjhickman@pm.me](mailto:jjhickman@pm.me)!
 
-Additionally, you may find me on [GitHub](https://github.com/jhickman) and [LinkedIn](https://linkedin.com/in/joshjh).
+Additionally, you may find me on [GitHub](https://github.com/jjhickman) and [LinkedIn](https://linkedin.com/in/joshjh).

@@ -47,11 +47,10 @@ const filters: string[] = [
 
 const projects: ProjectProps[] = [
   {
-    slug: 'louisite',
+    slug: 'jhickman.me',
     featured: true,
-    title: 'LOUISITE',
-    description:
-      'My all-new personal website—this is the second and latest iteration—built with React and TypeScript.',
+    title: 'jhickman.me',
+    description: 'This website! My personal portfolio.',
     techStacks: ['React', 'TypeScript', 'Tailwind CSS'],
     otherTechStacks: ['HTML/CSS', 'JavaScript'],
     category: 'Front-end development',

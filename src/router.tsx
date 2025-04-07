@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import HomePage from '@/pages/HomePage'
-import BlogPage from '@/pages/BlogPage'
+import ExperiencePage from '@/pages/ExperiencePage'
 import AboutPage from '@/pages/AboutPage'
 import ProjectPage from '@/pages/ProjectPage'
 import NotFoundPage from '@/pages/NotFoundPage'
@@ -14,7 +14,7 @@ export default function Router(): JSX.Element {
       />
       <Route
         path='/experience'
-        element={<BlogPage />}
+        element={<ExperiencePage />}
       />
       <Route
         path='/projects'

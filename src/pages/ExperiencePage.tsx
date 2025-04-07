@@ -1,30 +1,32 @@
 import { lazy, Suspense } from 'react'
 import { Helmet } from 'react-helmet'
 import Preloader from '@/components/common/Preloader'
+import { experiences } from '@/_data/experiences'
 
 const PageWrapper = lazy(() => import('@/components/layouts/PageWrapper'))
 const Navbar = lazy(() => import('@/components/layouts/Navbar'))
-const Projects = lazy(() => import('@/components/sections/Projects'))
+const Experience = lazy(() => import('@/components/sections/Experience'))
 const Footer = lazy(() => import('@/components/layouts/Footer'))
 
-export default function AboutPage(): JSX.Element {
+export default function ExperiencePage(): JSX.Element { 
+
   return (
     <>
       <Helmet>
-        <title>Projects by Josh Hickman</title>
+        <title>Experience</title>
         <meta
           name='description'
-          content="Explore my work!"
+          content="See my experience!"
         />
         <link
           rel='canonical'
-          href='https://jhickman.me/projects'
+          href='https://jhickman.me/experience'
         />
       </Helmet>
       <Suspense fallback={<Preloader />}>
         <PageWrapper>
           <Navbar />
-          <Projects />
+          <Experience experiences={experiences} />
           <Footer />
         </PageWrapper>
       </Suspense>
