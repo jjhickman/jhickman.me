@@ -1,4 +1,5 @@
-import { lazy } from 'react'
+import Preloader from '@/components/common/Preloader'
+import { lazy, Suspense } from 'react'
 import { Helmet } from 'react-helmet'
 
 const PageWrapper = lazy(() => import('@/components/layouts/PageWrapper'))
@@ -8,7 +9,7 @@ const Footer = lazy(() => import('@/components/layouts/Footer'))
 
 export default function ExperiencePage(): JSX.Element {
   return (
-    <>
+    <Suspense fallback={<Preloader />}>
       <Helmet>
         <title>Experience</title>
         <meta
@@ -25,6 +26,6 @@ export default function ExperiencePage(): JSX.Element {
         <Experience />
         <Footer />
       </PageWrapper>
-    </>
+    </Suspense>
   )
 }
