@@ -1,6 +1,6 @@
 const social = {
   mail: 'jjhickman@pm.me',
-  github: 'jhickman',
+  github: 'jjhickman',
   linkedin: 'https://www.linkedin.com/in/joshjh'
 }
 
